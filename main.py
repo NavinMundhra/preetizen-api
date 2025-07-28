@@ -8,18 +8,12 @@ app = FastAPI()
 def read_root():
     return {"message": "API is working successfully!"}
 
-# # Define expected structure (optional, for validation)
-# class OrderPayload(BaseModel):
-#     order_id: str
-#     customer_name: str
-#     email: str
-#     phone: str
-#     address: Dict[str, str]
-#     line_items: list
-#     total_amount: float
-#     created_at: str
-
 @app.post("/create-order")
-async def create_order():
-    # For now, just echo back the order payload
-    return {"status": "success", "data": payload}
+async def create_order(request: Request):
+    try:
+        payload = await request.json()
+        if not payload:
+            raise HTTPException(status_code=400, detail="Empty payload received.")
+        return {"status": "success", "data": payload}
+    except Exception:
+        raise HTTPException(status_code=400, detail="No valid JSON payload received.")
