@@ -1,0 +1,295 @@
+{
+    "orders": [
+      {
+        "received_at": "2025-07-28T07:03:45.309893Z",
+        "data": {
+          "data": {
+            "invoices": [],
+            "payments": [
+              {
+                "id": "a7166668-201c-46d7-82db-0017c685b5d4",
+                "amount": {
+                  "value": "1099.0",
+                  "currency": "INR"
+                },
+                "createdDate": "2025-07-28T07:03:38.953Z",
+                "creditCardLastDigits": ""
+              }
+            ],
+            "orderNumber": "10452",
+            "purchaseFlowId": "78a7f963-e497-4bca-a682-1c568bbb5b02",
+            "cartId": "bbf12baf-ca35-46d4-b1b7-b5251c30009e",
+            "lineItems": [
+              {
+                "quantity": 1,
+                "sku": "W011",
+                "image": "https://static.wixstatic.com/media/f63eee_d476f9d858454fe981dd6761ae42499e~mv2.jpg/v1/fit/w_1725,h_2640,q_90/file.jpg",
+                "totalPriceBeforeTax": {
+                  "value": "1099.00",
+                  "currency": "INR"
+                },
+                "taxRate": "0.0000",
+                "shippable": true,
+                "totalPrice": {
+                  "value": "1099.00",
+                  "currency": "INR"
+                },
+                "catalogItemId": "ba0add93-d205-4777-b5d0-6d51769d7c68",
+                "taxAmount": {
+                  "value": "0.00",
+                  "currency": "INR"
+                },
+                "totalDiscount": {
+                  "value": "0.00",
+                  "currency": "INR"
+                },
+                "id": "00000000-0000-0000-0000-000000000001",
+                "itemType": "PHYSICAL",
+                "rootCatalogItemId": "ba0add93-d205-4777-b5d0-6d51769d7c68",
+                "catalogId": "215238eb-22a5-4c36-9e7b-e7c08025e04e",
+                "itemName": "Freesia cropped shirt",
+                "descriptionLines": [
+                  {
+                    "name": "Sizes",
+                    "description": "M"
+                  }
+                ]
+              }
+            ],
+            "paymentStatus": "NOT_PAID",
+            "refunds": [],
+            "shippingInfo": {
+              "price": {
+                "value": "0",
+                "currency": "INR"
+              },
+              "taxRate": "0.0000",
+              "totalPriceAfterTax": {
+                "value": "0.00",
+                "currency": "INR"
+              },
+              "logistics": {
+                "deliveryTime": "10-14 days",
+                "shippingDestination": {
+                  "address": {
+                    "city": "Kolkata",
+                    "countryFullname": "India",
+                    "subdivisionFullname": "West Bengal",
+                    "addressLine": "Bangur Avenue",
+                    "country": "IN",
+                    "postalCode": "700055",
+                    "subdivision": "IN-WB"
+                  },
+                  "contactDetails": {
+                    "firstName": "navin",
+                    "lastName": "M",
+                    "phone": "9051657004"
+                  }
+                }
+              },
+              "carrierId": "45c44b27-ca7b-4891-8c0d-1747d588b835",
+              "region": "Domestic",
+              "totalTax": {
+                "value": "0.00",
+                "currency": "INR"
+              },
+              "title": "Free shipping (Select Razorpay for UPI payments)"
+            },
+            "context": {
+              "metaSiteId": "9fbfd729-49b7-46d0-b636-72401aebd1ed",
+              "activationId": "f4165085-df95-405a-b026-9abf068d98ca"
+            },
+            "channelType": "WEB",
+            "checkoutCustomFields": {
+  
+            },
+            "_context": {
+              "activation": {
+                "id": "f4165085-df95-405a-b026-9abf068d98ca"
+              },
+              "configuration": {
+                "id": "353fe672-f249-4384-9fcf-8e8240fe8598"
+              },
+              "app": {
+                "id": "1380b703-ce81-ff05-f115-39571d94dfcd"
+              },
+              "action": {
+                "id": "70e5019e-320c-4252-b354-a01f5ba7b0f6"
+              },
+              "trigger": {
+                "key": "wix_e_commerce-order_placed"
+              }
+            },
+            "appliedDiscounts": [],
+            "myOrdersLink": "https://www.preetizen.com//my-orders",
+            "attributionSource": "UNSPECIFIED",
+            "contact": {
+              "name": {
+                "first": "Navin",
+                "last": "Mundhra"
+              },
+              "email": "mundranavin@gmail.com",
+              "locale": "en",
+              "phones": [
+                {
+                  "tag": "UNTAGGED",
+                  "formattedPhone": "9051657004",
+                  "id": "9017afba-ba9e-4c86-a092-d10160130356",
+                  "primary": true,
+                  "phone": "9051657004"
+                }
+              ],
+              "labelKeys": {
+                "items": [
+                  "contacts.customers"
+                ]
+              },
+              "contactId": "5726b947-9e91-4842-923f-63b7f8aced4f",
+              "address": {
+                "subdivisions": [
+                  {
+                    "code": "WB",
+                    "name": "West Bengal",
+                    "type": "ADMINISTRATIVE_AREA_LEVEL_1",
+                    "typeInfo": "region"
+                  }
+                ],
+                "city": "Kolkata",
+                "countryFullname": "India",
+                "addressLine": "Bangur Avenue",
+                "formattedAddress": "Bangur Avenue\nKolkata, West Bengal 700055\nIndia",
+                "country": "IN",
+                "postalCode": "700055",
+                "subdivision": "IN-WB"
+              },
+              "emails": [
+                {
+                  "id": "d7ce8fcd-2634-404f-81b4-d3ff4a69b621",
+                  "tag": "UNTAGGED",
+                  "email": "mundranavin@gmail.com",
+                  "primary": true
+                }
+              ],
+              "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GgniN_mTRS-2UfcIm1spNh0X1ccg_lMD19cKy8PTg%3Ds96-c",
+              "updatedDate": "2025-07-28T07:03:41.750Z",
+              "phone": "9051657004",
+              "addresses": [
+                {
+                  "id": "b6d4296b-69ee-4dfa-8469-22c0d89e7798",
+                  "tag": "SHIPPING",
+                  "address": {
+                    "subdivisions": [
+                      {
+                        "code": "WB",
+                        "name": "West Bengal",
+                        "type": "ADMINISTRATIVE_AREA_LEVEL_1",
+                        "typeInfo": "region"
+                      }
+                    ],
+                    "city": "Kolkata",
+                    "countryFullname": "India",
+                    "addressLine": "Bangur Avenue",
+                    "formattedAddress": "Bangur Avenue\nKolkata, West Bengal 700055\nIndia",
+                    "country": "IN",
+                    "postalCode": "700055",
+                    "subdivision": "IN-WB"
+                  }
+                },
+                {
+                  "id": "b6d4296b-69ee-4dfa-8469-22c0d89e7798",
+                  "tag": "BILLING",
+                  "address": {
+                    "subdivisions": [
+                      {
+                        "code": "WB",
+                        "name": "West Bengal",
+                        "type": "ADMINISTRATIVE_AREA_LEVEL_1",
+                        "typeInfo": "region"
+                      }
+                    ],
+                    "city": "Kolkata",
+                    "countryFullname": "India",
+                    "addressLine": "Bangur Avenue",
+                    "formattedAddress": "Bangur Avenue\nKolkata, West Bengal 700055\nIndia",
+                    "country": "IN",
+                    "postalCode": "700055",
+                    "subdivision": "IN-WB"
+                  }
+                }
+              ],
+              "createdDate": "2020-09-03T08:17:47.776Z"
+            },
+            "weightUnit": "KG",
+            "priceSummary": {
+              "additionalFees": {
+                "value": "0.00",
+                "currency": "INR"
+              },
+              "tax": {
+                "value": "0.00",
+                "currency": "INR"
+              },
+              "total": {
+                "value": "1099.00",
+                "currency": "INR"
+              },
+              "subtotal": {
+                "value": "1099.00",
+                "currency": "INR"
+              },
+              "discount": {
+                "value": "0.00",
+                "currency": "INR"
+              },
+              "shipping": {
+                "value": "0.00",
+                "currency": "INR"
+              }
+            },
+            "id": "af4a2f6a-862f-4ffb-810a-7f17e09eb368",
+            "buyerEmail": "mundranavin@gmail.com",
+            "status": "APPROVED",
+            "contactId": "5726b947-9e91-4842-923f-63b7f8aced4f",
+            "billingInfo": {
+              "address": {
+                "city": "Kolkata",
+                "countryFullname": "India",
+                "subdivisionFullname": "West Bengal",
+                "addressLine": "Bangur Avenue",
+                "country": "IN",
+                "postalCode": "700055",
+                "subdivision": "IN-WB"
+              },
+              "contactDetails": {
+                "firstName": "navin",
+                "lastName": "M",
+                "phone": "9051657004"
+              }
+            },
+            "fulfillmentStatusesAggregate": [],
+            "catalogs": [
+              "215238eb-22a5-4c36-9e7b-e7c08025e04e"
+            ],
+            "currency": "INR",
+            "balanceSummary": {
+              "balance": {
+                "value": "1099.00",
+                "currency": "INR"
+              },
+              "paid": {
+                "value": "0",
+                "currency": "INR"
+              },
+              "refunded": {
+                "value": "0",
+                "currency": "INR"
+              }
+            },
+            "checkoutId": "26037b08-65ae-45e7-aefe-4e0fe142ec4e",
+            "buyerLanguage": "en",
+            "createdDate": "2025-07-28T07:03:37.899Z"
+          }
+        }
+      }
+    ]
+  }
